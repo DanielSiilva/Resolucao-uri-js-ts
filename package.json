@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "1000.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1000.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
