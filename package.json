@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "1000.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1000.js",
+    "1001.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1001.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/DanielSiilva/Resolucao-uri-js-ts#readme",
   "devDependencies": {
+    "@types/node": "^18.11.0",
     "typescript": "^4.8.4"
   }
 }
