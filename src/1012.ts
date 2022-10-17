@@ -17,9 +17,21 @@ const c = Number(process.argv[4]);
 
 function areaElementos (a:number, b:number, c:number){
 
-    const areaTriangulo:number = (a * c)/2
+    const areaTriangulo:number = (a * c)/2 ;
+    const areaCirculo:number = 3.14159 * Math.pow(c, 2) ;
+    const areaTrapezio:number = ((a + b)*c)/2;
+    const areaQuadrado:number = Math.pow(b,2);
+    const areaRetangulo:number = a * b
 
-    return areaTriangulo
+
+    return `
+        TRIÂNGULO: ${areaTriangulo.toFixed(3)}
+        CIRCULO: ${areaCirculo.toFixed(3)}
+        TRAPEZIO: ${areaTrapezio.toFixed(3)}
+        QUADRADO: ${areaQuadrado.toFixed(3)}
+        RETANGULO: ${areaRetangulo.toFixed(3)}
+    
+    `
 
 }
 
