@@ -14,7 +14,7 @@ const numHorasTrabalhadas = Number(process.argv[3]);
 
 function salario (numFun:number, numHrTrabalhadas:number){
     const mes:number = 31
-    const salarioFuncionario:number = numHrTrabalhadas/mes
+    const salarioFuncionario:number = numHrTrabalhadas*mes
 
     return (`Numero Funcionario:${numFun} - Salario: ${salarioFuncionario.toFixed(2)}`)
 }
