@@ -15,6 +15,7 @@
     "1010.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1010.js",
     "1011.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1011.js",
     "1012.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1012.js",
+    "1013.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1013.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
