@@ -1,9 +1,11 @@
+let [ x, y] = ['Daniel', 'Marlene']
 
+let obj = {x, y}
 
-function User (nome:string, email:string){
-    this.nome = nome;
-    this.email = email;
+// console.log(obj)
 
-    return `${nome} e ${email}`
-}
+const r:number = 3
 
+const area =(r ** 3)
+
+console.log(area)
