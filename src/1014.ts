@@ -12,3 +12,15 @@
 
 */
 
+const distancia = Number(process.argv[2]);
+const totalCombustivel = Number(process.argv[3])
+
+function TotalConsumo(D:number, T:number){
+    const consumo:number = D/T
+    
+    return `${consumo.toFixed(3)} km/l`
+    
+}
+
+
+console.log(TotalConsumo(distancia, totalCombustivel))

@@ -16,7 +16,7 @@
     "1011.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1011.js",
     "1012.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1012.js",
     "1013.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1013.js",
-    "1014.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1013.js",
+    "1014.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1014.js",
     "1015.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1013.js",
     "1016.ts": "echo Transpilando... && tsc && echo Rodando... && node ./build/1013.js",
     "test": "echo \"Error: no test specified\" && exit 1"
